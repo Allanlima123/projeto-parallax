@@ -1,0 +1,94 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Da+2:wght@400;500;600;700;800&family=Josefin+Slab:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600&family=Mulish:ital,wght@0,200;0,300;0,400;0,500;1,200;1,300;1,400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --font-primary: "Baloo Da 2", serif;
+    --font-secundary: "Josefin Slab", serif;
+    --font-action: "Mulish", serif;
+}
+
+body,html{
+    height: 100%;
+    font-family: var(--font-action);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.8em;
+    color: #666;
+}
+
+ .pimg1{
+     background-image: url(imagens/img-1.jpg);
+     min-height: 100%;
+ }
+
+ .pimg1, .pimg2, .pimg3 {
+     position: relative;
+     opacity: 0.8;
+     background-position: center center;
+     background-repeat: no-repeat;
+     background-attachment: fixed;
+     background-size: cover;
+ }
+
+ .ptext{
+     position: absolute;
+     top: 50%;
+     width: 100%;
+     text-align: center;
+     color: #000;
+     font-size: 27px;
+     letter-spacing: 9px;
+     text-transform: uppercase;
+ }
+
+ .ptext .border{
+     background-color: #111;
+     color: #fff;
+     padding: 20px;
+ }
+
+ .section{
+    text-align: center;
+    padding: 50px 80px;
+ }
+
+ .section-light{
+     background-color: #f4f4f4;
+     color: #666;
+ }
+
+ .ptext .border.trans{
+    background-color: transparent;
+ }
+
+ .ptext .border{
+     color: #fff;
+     padding: 20px;
+ }
+
+ .pimg2{
+     background-image: url(imagens/image2-1000.jpg);
+     min-height: 400px;
+ }
+
+ .section-dark{
+     background-color: #282e34;
+     color: #ddd;
+ }
+
+ .pimg3{
+     background-image: url(imagens/image-1000.jpg);
+     min-height: 400px;
+ }
+
+ .pimg1{
+     background-image: url(imagens/img-1.jpg);
+     min-height: 100%;
+ }
+
